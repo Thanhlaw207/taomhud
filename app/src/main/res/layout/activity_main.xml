@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:text="📱 Quản Lý Tiệm Bánh Bao"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBanhBao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🥟 Quản lý bánh bao" />
+
+    <Button
+        android:id="@+id/btnDonHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📦 Quản lý đơn hàng"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnThongKe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 Thống kê doanh thu"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
