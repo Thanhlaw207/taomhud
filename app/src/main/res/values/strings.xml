@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TIEMBANHBAO</string>
+    <string name="order_management_title">📦 Quản Lý Đơn Hàng</string>
+    <string name="add_order_button">Thêm đơn hàng mới</string>
 </resources>
