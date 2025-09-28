@@ -2,4 +2,12 @@
     <string name="app_name">TIEMBANHBAO</string>
     <string name="order_management_title">📦 Quản Lý Đơn Hàng</string>
     <string name="add_order_button">Thêm đơn hàng mới</string>
+    <string name="main_title">📱 Quản Lý Tiệm Bánh Bao</string>
+    <string name="btn_banh_bao">🥟 Quản lý bánh bao</string>
+    <string name="btn_don_hang">📦 Quản lý đơn hàng</string>
+    <string name="btn_thong_ke">📊 Thống kê doanh thu</string>
+    <string name="btn_tu_hap">Tủ hấp bánh bao</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_notifications">Thông báo</string>
+    <string name="nav_user">Người dùng</string>
 </resources>

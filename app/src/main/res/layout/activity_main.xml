@@ -8,7 +8,7 @@
     <TextView
         android:text="📱 Quản Lý Tiệm Bánh Bao"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:text="@string/main_title"
         android:layout_marginBottom="32dp"
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -20,18 +20,32 @@
         android:layout_height="wrap_content"
         android:text="🥟 Quản lý bánh bao" />
 
-    <Button
+        android:text="@string/btn_banh_bao" />
         android:id="@+id/btnDonHang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="📦 Quản lý đơn hàng"
         android:layout_marginTop="16dp" />
-
+        android:text="@string/btn_don_hang"
     <Button
         android:id="@+id/btnThongKe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="📊 Thống kê doanh thu"
         android:layout_marginTop="16dp" />
+        android:text="@string/btn_thong_ke"
+        android:id="@+id/btnTuHapBanhBao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tủ hấp bánh bao"
+        android:layout_marginTop="16dp" />
+        android:text="@string/btn_tu_hap"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_navigation_menu" />
 
 </LinearLayout>
